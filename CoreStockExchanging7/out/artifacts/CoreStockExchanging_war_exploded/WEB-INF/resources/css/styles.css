@@ -1,0 +1,185 @@
+@font-face {
+    font-family: 'bnazanin';
+    src: url('../fonts/BNazanin.eot') format('eot'), url('../fonts/BNazanin.woff') format('woff'),
+    url('../fonts/BNazanin.ttf') format('truetype');
+}
+
+body {
+    font-family: 'bnazanin';
+}
+
+header {
+    direction: rtl;
+    height: 100px;
+}
+
+header .title {
+    display: inline;
+    margin: auto;
+    padding: auto;
+    width: auto;
+}
+
+.content-container {
+    background: #FFFBEC;
+    height: auto;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-right: 200px;
+}
+
+.content-container img {
+    height: auto;
+    width: auto;
+    overflow-x: hidden;
+}
+
+.logo {
+    position: relative;
+    top: -90px;
+    width: 100px;
+    height: 100px;
+    display: inline;
+    float: left;
+    margin: auto;
+}
+
+#exchange .logo {
+    top: -65px;
+}
+
+.logo img {
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    transition: opacity 1s ease;
+}
+
+.logo-img-front:hover {
+    opacity: 0;
+}
+
+footer {
+    text-align: center;
+    clear: both;
+    background-color: #859FAB;
+}
+
+.nav-container {
+    height: 100%;
+    position: fixed;
+    padding: 0px;
+    margin: 0px;
+    right: 0px;
+    /*    background: darkslategray;*/
+    /*    transition: width ease .5s;*/
+    clear: both;
+}
+
+.nav-side {
+    height: 100%;
+    width: 100px;
+    position: relative;
+    direction: rtl;
+    background-color: #A6B8C1;
+    padding: 0px;
+    margin: 0px;
+    font-size: 16px;
+    /*    overflow: hidden;*/
+}
+
+.nav-side ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+.nav-side li {
+    padding: 2px;
+    margin: 0px;
+    list-style-type: none;
+    align-content: center;
+}
+
+.nav-side a {
+    text-decoration: none;
+    align-content: center;
+}
+
+#index .home,
+#status .status,
+#exchange .exchange,
+#deposit .deposit,
+#signUp .signUp{
+    background-color: #FFE4C4;
+    font-weight: bold;
+}
+
+#index .home a,
+#status .status a,
+#exchange .exchange a,
+#deposit .deposit a,
+#signUp .signUp a{
+    pointer-events: none;
+}
+
+.nav-side a {
+    color: inherit;
+}
+
+.nav-side a:hover,
+.nav-side a:visited,
+.nav-side a:link,
+.nav-side a:active {
+    text-decoration: none;
+}
+
+table {
+    padding: 0px;
+    margin: 0px;
+    direction: rtl;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-color: #fff;
+}
+
+.orders-table1 {
+    direction: rtl;
+    /*
+    display: inline-block;
+    position: relative;
+*/
+    float: right;
+}
+
+.orders-table1 tr:nth-of-type(odd) {
+    background-color: #f9f9f9;
+}
+
+.orders-table1 tr:hover {
+    background-color: #f5f5f5;
+}
+
+.table-container {
+    direction: rtl;
+}
+
+.instrument-orders {
+    /*    display: block;*/
+    display: block;
+    width: 100%;
+}
+
+div.forms {
+    padding-right: 100px;
+}
+
+/*.glyphicon {*/
+    /*display: block;*/
+    /*width: 100px;*/
+    /*height: 100px;*/
+    /*/!*margin: 10px 0px 5px 10px;*!/*/
+    /*font-size: 48px;*/
+    /*/!*color: #1F2E54;*!/*/
+    /*/!*background-color: #F0C425;*!/*/
+    /*/!*padding: 25px;*!/*/
+/*}*/
